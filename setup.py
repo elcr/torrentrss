@@ -3,7 +3,7 @@ import setuptools
 setuptools.setup(
     name='torrentrss',
     description='torrentrss',
-    version='0.2',
+    version='0.2.1',
     author='elcr',
     url='https://bitbucket.org/elcr/torrentrss',
     license='MIT',
