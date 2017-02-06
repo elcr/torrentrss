@@ -5,7 +5,7 @@ with open('README.md') as file:
 
 setuptools.setup(
     name='torrentrss',
-    version='0.5.2',
+    version='0.5.3',
     license='MIT',
     description=('An RSS torrent fetcher. Matches entries with regexp, '
                  'keeps track of episode numbers, allows custom commands, '
@@ -13,7 +13,7 @@ setuptools.setup(
     long_description=readme,
     author='elcr',
     author_email='elcr@outlook.com',
-    url='https://github.com/elcr/torrentrss',
+    url='https://bitbucket.org/elcr/torrentrss',
     packages=['torrentrss'],
     package_data={'torrentrss': ['config_schema.json']},
     entry_points={'console_scripts': ['torrentrss=torrentrss:main']},
