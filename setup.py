@@ -9,11 +9,11 @@ setuptools.setup(
     license='MIT',
     description=('An RSS torrent fetcher. Matches entries with regexp, '
                  'keeps track of episode numbers, allows custom commands, '
-                 'magnet links, and more.'),
+                 'and more.'),
     long_description=readme,
     author='elcr',
     author_email='elcr@outlook.com',
-    url='https://bitbucket.org/elcr/torrentrss',
+    url='https://github.com/elcr/torrentrss',
     packages=['torrentrss'],
     package_data={'torrentrss': ['config_schema.json']},
     entry_points={'console_scripts': ['torrentrss=torrentrss:main']},
